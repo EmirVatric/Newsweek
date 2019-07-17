@@ -1,0 +1,41 @@
+.navbar {
+    height: 100px;
+    background-color: #f72210;
+
+    top: 0;
+    z-index: 99;
+}
+
+.date {
+    color: white;
+}
+
+.signinbutton {
+    font: "Roboto Condensed", sans-serif;
+}
+
+.subscribe {
+    font: "Roboto Condensed", sans-serif;
+}
+
+.hidden-nav {
+    top: 0;
+    position: fixed;
+    z-index: 98;
+    width: 100%;
+    height: 50px;
+    background-color: #f72210;
+}
+
+.logo-mini img {
+    object-fit: contain;
+    height: 25px;
+}
+
+.subscribe-mini {
+    height: 27px;
+}
+
+.hamb {
+    font-size: 27px;
+}
