@@ -193,3 +193,180 @@
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
+#feat-link {
+  text-decoration: none;
+  color: black;
+}
+#container {
+  background: lightgray;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#container:hover {
+  background: gray;
+}
+.title2 {
+  color: #03030366;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.img-container {
+  height: 300px;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.img-container h3 {
+  line-height: 10px;
+}
+
+.span-text-img {
+  background: #f72210;
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: 700;
+}
+
+.class {
+  text-decoration: none;
+  color: #f72210;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.fit {
+  font-size: 1.3vw;
+  font-weight: 700;
+  line-height: -20px;
+}
+
+#art-1 {
+  background-image: url("https://d.newsweek.com/en/full/1512184/fe-cancer-01-1012948362-banner.jpg?w=466&h=311&q=90&f=195700d26c22b7403cf40561221de05f");
+}
+#art-2 {
+  background-image: url("https://d.newsweek.com/en/full/1512240/fe-cancer-sidebar-michael-caligiuri.jpg?w=466&h=311&q=90&f=7d948a988652e834d977692d2272607f");
+}
+#art-3 {
+  background-image: url("https://d.newsweek.com/en/full/1512245/fe-cancer-sidebar-stanley-robboy.jpg?w=466&h=311&q=90&f=f84e02c450df17d23861e77aa04501c8");
+}
+
+#art-4 {
+  background-image: url("https://d.newsweek.com/en/full/1508647/ron-sullivan-newsweek-interview-harvard-harvey-weinstein.jpg?w=466&h=311&l=50&t=67&q=90&f=0631fad07c14e5612232f10b7b3e280a");
+}
+#art-5 {
+  background-image: url("https://d.newsweek.com/en/full/1512326/cul-woodstock-01.jpg?w=466&h=311&q=90&f=84dddf2f0380e3e80d1050b470e40272");
+}
+#art-6 {
+  background-image: url("https://d.newsweek.com/en/full/1503544/gretchen-carlson.png?w=466&h=311&q=90&f=353cacca2914d98cb49ef07e5b7e4b4f");
+}
+#art-7 {
+  background-image: url("https://d.newsweek.com/en/full/1512184/fe-cancer-01-1012948362-banner.jpg?w=466&h=311&q=90&f=195700d26c22b7403cf40561221de05f");
+  height: 350px;
+}
+
+.custom {
+  margin-top: -61px;
+  padding: 5px 10px;
+  background-color: #f72210;
+  font-weight: bold;
+  position: absolute;
+  display: block;
+}
+.show {
+  font-size: 40px;
+}
+
+.slide {
+  margin-top: -51px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #f72210;
+  font-weight: bold;
+  position: absolute;
+  display: block;
+}
+.slide img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-text {
+  color: #f72210;
+  font-weight: bold;
+}
+.img-custom {
+  position: absolute;
+  margin-left: -130px;
+  margin-top: 30px;
+}
+
+.subs-text {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sub-custom {
+  background-color: #f72210;
+  width: 130px;
+}
+.hol {
+  height: 93%;
+}
+
+.news-img {
+  background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif)
+    center center / cover no-repeat;
+}
+footer {
+  background-color: #fff;
+  padding-top: 30px;
+}
+.footer-top {
+  border-top: 2px solid #f4f5f6;
+  padding: 20px;
+}
+
+.media-icons > i {
+  vertical-align: bottom;
+  font-size: 25px;
+  color: #666;
+  padding-left: 7px;
+}
+.menu {
+  display: flex;
+  font-size: 14px;
+  line-height: 15px;
+  list-style: none;
+  margin: 0px;
+  color: #666;
+  padding: 0px;
+}
+
+#right {
+  text-align: right;
+  padding: 0px;
+}
+
+#Layer_1 {
+  width: 200px;
+  fill: #f72210;
+}
+
+.leaf {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.copyright {
+  vertical-align: bottom;
+  padding-left: 10px;
+  font-size: 12px;
+}
