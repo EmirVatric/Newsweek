@@ -12,5 +12,5 @@ Used:
 - Emir Vatric -- [User Github link](https://github.com/EmirVatric)
 
 #### Website
-See it in [Live link]https://rawcdn.githack.com/EmirVatric/Newsweek/15c53f7c044e90cc5acd5aa54636718961b8aed0/index.html)
+See it in [Live link](https://rawcdn.githack.com/EmirVatric/Newsweek/15c53f7c044e90cc5acd5aa54636718961b8aed0/index.html)
 
