@@ -247,6 +247,10 @@
   font-weight: 700;
 }
 
+.index {
+  z-index: 2;
+}
+
 .fit {
   font-size: 15px;
   display: block;
