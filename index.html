@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="hidden-nav d-flex justify-content-between align-items-center">
+    <nav class="hidden-nav d-flex justify-content-between align-items-center">
         <div class="logo-mini"><img src="https://bojozahariev.github.io/NewsWeek/images/newsweek-logo.png" alt=""></div>
         <div class="signin d-flex align-items-center">
             <div class="signinbutton p-2 text-white font-weight-bold">SIGN IN</div>
@@ -24,9 +24,9 @@
             </div>
             <i class="fas fa-bars text-white mr-2 hamb"></i>
         </div>
-    </div>
+    </nav>
 
-    <div class="d-none d-lg-flex justify-content-around navbar">
+    <nav class="d-none d-lg-flex justify-content-around navbar">
         <div class="date mt-4">Wed, Jul 17, 2019</div>
         <div class="logo"><img src="https://bojozahariev.github.io/NewsWeek/images/newsweek-logo.png" alt=""></div>
         <div class="signin mt-4 d-flex">
@@ -34,7 +34,7 @@
             <div class="subscribe bg-white text-danger font-weight-bold p-2">SUBSCRIBE <i
                     class="fas fa-chevron-right"></i></div>
         </div>
-    </div>
+    </nav>
 
     <div class="nav-links d-flex justify-content-between">
         <ul class="page-nav d-flex justify-content-around align-items-center h-100">
@@ -58,9 +58,9 @@
 
     <main class="wrapper">
         <div class="content-container row">
-            <section class="col-md-4 order-2 order-md-1 order-lg-1 order-xl-1 ">
+            <section class="col-md-5 col-lg-3 order-2 order-md-1 order-lg-1 order-xl-1 ">
                 <header class="title p-3">FEATURED STORIES</header>
-                <article class="img-contain p-3">
+                <article class="img-contain futured p-3">
                     <a href="">
                         <img class='img-fluid'
                             src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
@@ -72,7 +72,7 @@
                     <p class='summary'>The Newsweek Momentum Awards will recognize five individuals around the globe, as
                         well as one city, which will be chosen as the "smartest city in the world."</p>
                 </article>
-                <article class="img-contain p-3">
+                <article class="img-contain futured p-3">
                     <a href="">
                         <img class='img-fluid'
                             src="https://d.newsweek.com/en/full/1512184/fe-cancer-01-1012948362-banner.jpg?w=397&h=265&q=90&f=9bfa6657bd79af6b4fc0eba66120af77"
@@ -85,7 +85,7 @@
                         being able to cure just about any form of cancer; the catch is that each one will be expensive.
                     </p>
                 </article>
-                <article class="img-contain p-3">
+                <article class="img-contain futured p-3">
                     <a href="">
                         <img class='img-fluid'
                             src="https://d.newsweek.com/en/full/1513000/china-africa-peace-security-forum.jpg?w=397&h=265&q=90&f=fbe4afb0215f8ac5aa7952623d90edc0"
@@ -99,7 +99,7 @@
                     <p class='summary'>China and Russia are building political, economic and military ties in Africa,
                         where U.S. officials travel infrequently.</p>
                 </article>
-                <article class="img-contain p-3">
+                <article class="img-contain futured p-3">
                     <a href="">
                         <img class='img-fluid'
                             src="https://d.newsweek.com/en/full/1511669/spot-im-logo.png?w=397&h=265&q=90&f=fe63931482a6ab2a1825bd5559fc3c72"
@@ -123,7 +123,7 @@
 
                         </span>
                     </a>
-                    <div class="sponsored p-3 border">
+                    <div class="sponsored p-3 futured border">
                         <h3><a href="" class='links-color'> What are the leading global business schools of 2019?</a>
                         </h3>
                         <p class='summary'>Business schools offer more than just certification—they nurture the leaders
@@ -133,7 +133,7 @@
                             world?</p>
                     </div>
                 </article>
-                <article class="img-contain p-2">
+                <article class="img-contain futured p-2">
                     <a href="">
                         <img class='img-responsive p-3'
                             src="https://d.newsweek.com/en/full/1511789/best-nursing-homes-2020.png?w=343&h=229&f=e06577dec7407f9f74d2443585296125"
@@ -142,7 +142,7 @@
 
                         </span>
                     </a>
-                    <div class="sponsored p-3 border">
+                    <div class="sponsored p-3 futured border">
                         <h3><a href="" class='links-color'> What are the leading global business schools of 2019?</a>
                         </h3>
                         <p class='summary'>Business schools offer more than just certification—they nurture the leaders
@@ -152,7 +152,7 @@
                             world?</p>
                     </div>
                 </article>
-                <article class="img-contain">
+                <article class="img-contain futured">
                     <a href="">
                         <img class='img-fluid w-100 p-3'
                             src="https://d.newsweek.com/en/full/1502501/cultural-arts-academy-charter-school.jpg?w=343&h=229&f=75893f3cdcef509bafcd1a5c0e6d90f4"
@@ -169,7 +169,8 @@
                     </div>
                 </article>
             </section>
-            <section class="col-md-5 order-xs-1 order-sm-1 order-md-1 p-3">
+            <section class="col-md-7 col-lg-5 top-story order-xs-1 order-sm-1 order-md-1 p-3">
+                <section>
                 <header class="title">TOP STORY</header>
                 <article class="img-contain">
                     <a href="">
@@ -185,11 +186,13 @@
                         under tight visa restrictions, during a visit to the United Nations.
                     </p>
                 </article>
+            </section>
+            <section class='sticky-top  index'>
 
                 <header class="title">MORE STORIES</header>
-                <section class='sticky-top  index'>
+                <section >
                 <article class='storie-holder border-top mt-2 row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-fluid w-100'
                             src="https://d.newsweek.com/en/full/1513032/iran-zarif-united-nations.jpg?w=135&h=90&f=e56fbaffe9ef54eef164c7e2c9ff0556"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -201,7 +204,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100'
                             src="https://d.newsweek.com/en/full/1513052/president-donald-trump.jpg?w=135&h=90&f=80ca088f4d5d22e25dbc7232bdcd769f"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -213,7 +216,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100'
                             src="https://d.newsweek.com/en/full/1513063/textbooks-cheap-used-pearson.jpg?w=135&h=90&f=3e1452e7708f076dbad22b99048fe3ff"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -225,7 +228,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100'
                             src="https://d.newsweek.com/en/full/1513040/house-hold-william-barr-wilbur-ross-contempt.jpg?w=135&h=90&f=6a00d52e83aa64201e04db033e4a983a"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -237,7 +240,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100'
                             src="https://d.newsweek.com/en/full/1510196/jeffrey-epstein.png?w=135&h=90&f=ee3302c30fce513702963f36e3e983bb"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -249,7 +252,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100'
                             src="https://d.newsweek.com/en/full/1513131/trump-rally.jpg?w=135&h=90&f=76517ec788351b4e52a906e03a9e432c"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -261,7 +264,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100'
                             src="https://d.newsweek.com/en/full/1513171/womens-march-gender-equality-getty.jpg?w=135&h=90&f=f56737073f781a7d0f4daa2eaba44d7f"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -273,7 +276,7 @@
                     </div>
                 </article>
                 <article class='storie-holder border-top row'>
-                    <div class="col-4 pt-3"><img class='img-responsive'
+                    <div class="col-4 pt-3"><img class='img-responsive w-100' 
                             src="https://d.newsweek.com/en/full/1513172/paul-george-los-angeles-clippers.jpg?w=135&h=90&f=c15c90f37a900bd2bf001174ece50301"
                             alt=""></div>
                     <div class="col-8 pt-3">
@@ -284,11 +287,12 @@
                             blockbuster deal last month after being recruited by Kawhi Leonard.</p>
                     </div>
                 </article>
+            </section>
            </section>
             </section>
-            <section class="col-md-3 order-sm-3 mb-2 p-3">
+            <section class="col-lg-4 opinion-holder order-sm-3 mb-2 p-3">
                 <header class="title">OPINION</header>
-                <article class="row border-bottom">
+                <article class="row opinion border-bottom">
                     <div class="col-3 img-contain">
                         <a href=""><img
                                 src="https://d.newsweek.com/en/full/1513224/martha-bergmark.png?w=63&h=63&f=460be7cbd47dc6b2fb7b07133631312e"
@@ -303,7 +307,7 @@
                     </div>
                 </article>
 
-                <article class="row border-bottom pt-3">
+                <article class="row opinion border-bottom pt-3">
                     <div class="col-3 img-contain">
                         <a href=""><img
                                 src="https://d.newsweek.com/en/full/1505177/eric-cochran.png?w=63&h=63&f=9bda44baa3cb37d00e07bcca7259bb35"
@@ -317,7 +321,7 @@
                     </div>
                 </article>
 
-                <article class="row border-bottom pt-3">
+                <article class="row opinion border-bottom pt-3">
                     <div class="col-3 img-contain">
                         <a href=""><img
                                 src="https://d.newsweek.com/en/full/1512925/jumaane-williams.png?w=63&h=63&f=fe9ca5318fe2156ced37ed208d2f397b"
@@ -331,7 +335,7 @@
                     </div>
                 </article>
 
-                <article class="row border-bottom pt-3">
+                <article class="row opinion border-bottom pt-3">
                     <div class="col-3 img-contain">
                         <a href=""><img
                                 src="https://d.newsweek.com/en/full/1512448/aaron-peskin.png?w=63&h=63&f=62106dccce6ba0fdaaafbc9e515be1dc"
@@ -345,7 +349,7 @@
                     </div>
                 </article>
 
-                <article class="row border-bottom pt-3">
+                <article class="row opinion border-bottom pt-3">
                     <div class="col-3 img-contain">
                         <a href=""><img
                                 src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410"
@@ -359,7 +363,7 @@
                     </div>
                 </article>
 
-                <article class="row border-bottom pt-3">
+                <article class="row opinion border-bottom pt-3">
                     <div class="col-3 img-contain">
                         <a href=""><img
                                 src="https://d.newsweek.com/en/full/1513224/martha-bergmark.png?w=63&h=63&f=460be7cbd47dc6b2fb7b07133631312e"
@@ -372,6 +376,93 @@
                         <p class='img-text-span'>BY CHARLIE KIRK</p>
                     </div>
                 </article>
+<section>
+                <header class="title p-3">LATEST NEWS</header>
+
+                <article class='storie-holder row'>
+                        <div class="col-5 pl-2"><img class='img-responsive'
+                                src="https://d.newsweek.com/en/full/1513137/brooks-koepka-open.jpg?w=135&h=90&f=3eb851c325655831bc20567f1852ba8f"
+                                alt=""></div>
+                        <div class="col-7">
+                            <h5><a href="" class='heading-color'>British Open 2019 First Round: How to Watch, TV Channel,
+                                    Live Stream</a>
+                            </h5>
+    
+                        </div>
+                    </article>
+                    <article class='storie-holder mt-1 border-top row'>
+                        <div class="col-5 pt-1 pl-2"><img class='img-responsive'
+                                src="https://d.newsweek.com/en/full/1513127/tiger-woods-open.jpg?w=135&h=90&f=ad03069a9ce757d9ad133146c5cb9f7e"
+                                alt=""></div>
+                        <div class="col-7">
+                            <h5><a href="" class='heading-color'>
+    
+                                    When Does Tiger Tee Off on Thursday? The Open First Round TV, Live Stream</a>
+                            </h5>
+    
+                        </div>
+                    </article>
+                    <article class='storie-holder mt-1 border-top row'>
+                        <div class="col-5 pt-1 pl-2"><img class='img-responsive'
+                                src="https://d.newsweek.com/en/full/1512920/tiger-woods-open.jpg?w=135&h=90&f=200206b538528e9a58a2d5f2af9aaeb8"
+                                alt=""></div>
+                        <div class="col-7">
+                            <h5><a href="" class='heading-color'>British Open: How Will Rain and Wind Affect Tiger Woods,
+                                    Brooks Koepka?</a>
+                            </h5>
+    
+                        </div>
+                    </article>
+                    <article class='storie-holder row'>
+                            <div class="col-5 pl-2"><img class='img-responsive'
+                                    src="https://d.newsweek.com/en/full/1513137/brooks-koepka-open.jpg?w=135&h=90&f=3eb851c325655831bc20567f1852ba8f"
+                                    alt=""></div>
+                            <div class="col-7">
+                                <h5><a href="" class='heading-color'>British Open 2019 First Round: How to Watch, TV Channel,
+                                        Live Stream</a>
+                                </h5>
+        
+                            </div>
+                        </article>
+                        <article class='storie-holder mt-1 border-top row'>
+                            <div class="col-5 pt-1 pl-2"><img class='img-responsive'
+                                    src="https://d.newsweek.com/en/full/1513127/tiger-woods-open.jpg?w=135&h=90&f=ad03069a9ce757d9ad133146c5cb9f7e"
+                                    alt=""></div>
+                            <div class="col-7">
+                                <h5><a href="" class='heading-color'>
+        
+                                        When Does Tiger Tee Off on Thursday? The Open First Round TV, Live Stream</a>
+                                </h5>
+        
+                            </div>
+                        </article>
+                        <article class='storie-holder mt-1 border-top row'>
+                            <div class="col-5 pt-1 pl-2"><img class='img-responsive'
+                                    src="https://d.newsweek.com/en/full/1512920/tiger-woods-open.jpg?w=135&h=90&f=200206b538528e9a58a2d5f2af9aaeb8"
+                                    alt=""></div>
+                            <div class="col-7">
+                                <h5><a href="" class='heading-color'>British Open: How Will Rain and Wind Affect Tiger Woods,
+                                        Brooks Koepka?</a>
+                                </h5>
+        
+                            </div>
+                        </article>
+                        <article class='storie-holder mt-1 border-top row'>
+                                <div class="col-5 pt-1 pl-2"><img class='img-responsive'
+                                        src="https://d.newsweek.com/en/full/1512920/tiger-woods-open.jpg?w=135&h=90&f=200206b538528e9a58a2d5f2af9aaeb8"
+                                        alt=""></div>
+                                <div class="col-7">
+                                    <h5><a href="" class='heading-color'>British Open: How Will Rain and Wind Affect Tiger Woods,
+                                            Brooks Koepka?</a>
+                                    </h5>
+            
+                                </div>
+                            </article>
+
+
+                </section>
+
+
                 <article class="img-contain mt-2">
                     <a href="">
                         <img class='img-responsive w-100'
@@ -815,10 +906,10 @@
                 </article>
                 <article class="col-md-4">
                     <article class='storie-holder row'>
-                        <div class="col-4 pl-2"><img class='img-fluid w-100'
+                        <div class="col-5 w-100 pl-2"><img class='img-responsive'
                                 src="https://d.newsweek.com/en/full/1513206/amy-fajohn.jpg?w=135&h=90&f=b3e3787d97161590f961ca43eaa504c7"
                                 alt=""></div>
-                        <div class="col-8">
+                        <div class="col-7 ">
                             <h5><a href="" class='heading-color'> Virginia Mother Convicted Over Starvation
                                     Death of 13-year-old Son</a>
                             </h5>
@@ -826,10 +917,10 @@
                         </div>
                     </article>
                     <article class='storie-holder mt-1 border-top row'>
-                        <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                        <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                                 src="https://d.newsweek.com/en/full/1513216/ucf-student-sexual-battery.jpg?w=135&h=90&f=76103069d9de75b33f0e2c219bc87000"
                                 alt=""></div>
-                        <div class="col-8">
+                        <div class="col-7">
                             <h5><a href="" class='heading-color'> UCF Student Charged With Sexual Battery Said
                                     He Just "Wanted To Have Sex"</a>
                             </h5>
@@ -837,10 +928,10 @@
                         </div>
                     </article>
                     <article class='storie-holder mt-1 border-top row'>
-                        <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                        <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                                 src="https://d.newsweek.com/en/full/1513190/matthew-scully.png?w=135&h=90&f=22b30a3e3d3e6c05a4381db60e4f7458"
                                 alt=""></div>
-                        <div class="col-8">
+                        <div class="col-7">
                             <h5><a href="" class='heading-color'> Restaurant near Trump Rally Donates 100% of
                                     Proceeds to Help Immigrants</a>
                             </h5>
@@ -877,10 +968,10 @@
             </article>
             <article class="col-md-4">
                 <article class='storie-holder row'>
-                    <div class="col-4 pl-2"><img class='img-fluid w-100'
+                    <div class="col-5 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513121/kyoto-animation-co-studio.jpg?w=135&h=90&f=218e6fe29a3f07bee3edb9ac0ce317ff"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'> Virginia Mother Convicted Over Starvation
                                 Death of 13-year-old Son</a>
                         </h5>
@@ -888,10 +979,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513129/cruise-ship-sun-bed-sun-lounger-holiday.jpg?w=135&h=90&f=bb712ad549e7a7cdff3d3dc6966be6bf"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>Cruise Ship Passenger, 70, Sues Younger Man After Argument
                                 Over Sunbed</a>
                         </h5>
@@ -899,10 +990,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513032/iran-zarif-united-nations.jpg?w=135&h=90&f=e56fbaffe9ef54eef164c7e2c9ff0556"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'> Russia Warns U.S. to Stop Provoking Iran: 'A Single Match
                                 Can Start A Fire'</a>
                         </h5>
@@ -944,10 +1035,10 @@
             </article>
             <article class="col-md-4">
                 <article class='storie-holder row'>
-                    <div class="col-4 pl-2"><img class='img-responsive'
+                    <div class="col-5 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/988652/gettyimages-467429852.jpg?w=135&h=90&f=0104665ed709a8636ba48b654fa6bbed"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>How to (Re)Make Money So It Works for Us, Not the Other Way
                                 Around</a>
                         </h5>
@@ -955,10 +1046,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1512085/libra.jpg?w=135&h=90&f=715b64f91c3404a12ca662f44ed0f74d"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>
                                 New Bill Could See Facebook Fined $1 Million Per Day Over Calibra</a>
                         </h5>
@@ -966,10 +1057,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1510546/this-couple-quit-their-jobs-bought-two-acres-retired-their-30s.jpg?w=135&h=90&f=9219f939f8da43adaf61dca4acab1b89"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>This Couple Quit Their Jobs, Bought Two Acres and
                                 Retired—In Their 30s</a>
                         </h5>
@@ -1008,10 +1099,10 @@
             </article>
             <article class="col-md-4">
                 <article class='storie-holder row'>
-                    <div class="col-4 pl-2"><img class='img-responsive'
+                    <div class="col-5 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513143/apollo-15-moon-james-irwin.jpg?w=135&h=90&f=a060703a4b302a44183e5d9401c819a8"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>Conservative Bias? 'Fox & Friends' Audience Fears Instagram
                                 Hiding 'Likes'</a>
                         </h5>
@@ -1019,10 +1110,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513183/proton-m-rocket.jpg?w=135&h=90&f=224f34a6b9bc6402f445e69f6d5a33e6"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>
                                 Watch Apollo Astronauts Falling Over on the Moon</a>
                         </h5>
@@ -1030,10 +1121,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513149/harrison-schmitt.jpg?w=135&h=90&f=04efa6177d2c895341d32f17ff346288"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>Apollo 17: The Last Man to Walk on the Moon, Was Allergic
                                 to Moon Dust</a>
                         </h5>
@@ -1071,10 +1162,10 @@
             </article>
             <article class="col-md-4">
                 <article class='storie-holder row'>
-                    <div class="col-4 pl-2"><img class='img-responsive'
+                    <div class="col-5 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513255/rick-morty-season-4-episodes.jpg?w=135&h=90&f=1472e8340ae5879355951eea19e7b895"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>'Rick and Morty' Season 4's Ten Episodes Have A Serial
                                 Story (And Meeseeks)</a>
                         </h5>
@@ -1082,10 +1173,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513243/chris-harrison.jpg?w=135&h=90&f=52659bc1269b87fdf6b4417c786c6972"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>
 
                                 Chris Harrison Teases 'Bachelorette' Finale, Says Jed Wyatt Will Speak</a>
@@ -1094,10 +1185,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513069/confession-sex-abuse-priest-penitent-privilege.jpg?w=135&h=90&f=8a1de3490b5458380b2a0ff8c3bbfae0"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>In 44 States, Clergy Don't Have to Tell Police About Child
                                 Sex Abuse</a>
                         </h5>
@@ -1134,10 +1225,10 @@
             </article>
             <article class="col-md-4">
                 <article class='storie-holder row'>
-                    <div class="col-4 pl-2"><img class='img-responsive'
+                    <div class="col-5 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513137/brooks-koepka-open.jpg?w=135&h=90&f=3eb851c325655831bc20567f1852ba8f"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>British Open 2019 First Round: How to Watch, TV Channel,
                                 Live Stream</a>
                         </h5>
@@ -1145,10 +1236,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1513127/tiger-woods-open.jpg?w=135&h=90&f=ad03069a9ce757d9ad133146c5cb9f7e"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>
 
                                 When Does Tiger Tee Off on Thursday? The Open First Round TV, Live Stream</a>
@@ -1157,10 +1248,10 @@
                     </div>
                 </article>
                 <article class='storie-holder mt-1 border-top row'>
-                    <div class="col-4 pt-1 pl-2"><img class='img-responsive'
+                    <div class="col-5 pt-1 pl-2"><img class='img-responsive'
                             src="https://d.newsweek.com/en/full/1512920/tiger-woods-open.jpg?w=135&h=90&f=200206b538528e9a58a2d5f2af9aaeb8"
                             alt=""></div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <h5><a href="" class='heading-color'>British Open: How Will Rain and Wind Affect Tiger Woods,
                                 Brooks Koepka?</a>
                         </h5>
@@ -1174,7 +1265,7 @@
 
 
         <section class="w-100 row border-top p-4 mt-4">
-            <article class="col-md-8 pr-5">
+            <article class="col-lg-8 pr-5">
                 <span class='header-text'>SUBSCRIBE</span>
                 <div class="row align-items-center p-4 bg-light">
 
@@ -1186,7 +1277,7 @@
                                 src="https://d.newsweek.com/en/full/1512696/july-26-2019-cover.jpg?w=170&q=95&f=62e741a78533834d86c15249d07b772a"
                                 alt="">
 
-                            <img class='img-custom d-none d-md-inline'
+                            <img class='img-custom d-none d-lg-inline'
                                 src='https://d.newsweek.com/en/full/1512696/july-26-2019-cover.jpg?w=170&q=95&f=62e741a78533834d86c15249d07b772a'
                                 alt="">
                         </div>
@@ -1200,7 +1291,7 @@
                     </div>
                 </div>
             </article>
-            <article class="col-md-4">
+            <article class="col-lg-4">
                 <span class='header-text'>NEWSLETTER</span>
                 <div class="row border hol">
                     <div class="col-6 news-img"></div>
